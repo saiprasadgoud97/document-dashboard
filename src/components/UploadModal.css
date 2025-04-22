@@ -1,0 +1,42 @@
+.upload-modal {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    font-size: 14px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .tabs span {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .tabs .active {
+    border-bottom: 2px solid #6b4eff;
+    font-weight: bold;
+  }
+  
+  .upload-box {
+    border: 2px dashed #ccc;
+    text-align: center;
+    padding: 20px;
+    margin: 15px 0;
+    color: #888;
+  }
+  
+  .upload-btn {
+    background: #6b4eff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
